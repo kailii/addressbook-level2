@@ -103,7 +103,7 @@ public class Main {
      * @param command user command
      * @return result of the command
      */
-    private CommandResult executeCommand(Command command)  {
+    private CommandResult executeCommand(Command command)  {  //test 
         try {
             command.setData(addressBook, lastShownList);
             CommandResult result = command.execute();
